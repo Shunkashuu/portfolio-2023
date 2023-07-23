@@ -334,7 +334,8 @@ body.dark-theme {
 }
 
 .home__perfil img {
-  width: 150px;
+  width: 100%;
+  height: 100%;
 }
 
 .home__shape-wawes, 
@@ -438,7 +439,7 @@ body.dark-theme {
 }
 
 .skills__blob {
-  width: 80px;
+  width: 100px;
   height: 100px;
   background-color: var(--container-color);
   border-radius: 3rem;
@@ -448,7 +449,7 @@ body.dark-theme {
 }
 
 .skills__blob img {
-  width: 40px;
+  width: 50px;
 }
 
 .skills__name {
@@ -518,13 +519,15 @@ body.dark-theme {
   margin-bottom: 1.25rem;
 }
 
-.qualification__country, 
+.qualification__country,
+.qualification__soft, 
 .qualification__year {
   display: block;
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
 
+.qualification__soft,
 .qualification__country {
   margin-bottom: .75rem;
 }
@@ -1175,18 +1178,20 @@ body.dark-theme {
     font-size: var(--biggest-font-size);
   }
   .home__blob {
-    width: 400px;
+    width: 420px;
     height: 580px;
     border-radius: 12.5rem;
   }
   .home__perfil {
-    width: 340px;
+    width: 370px;
     height: 520px;
     border-radius: 10.6rem;
   }
   .home__perfil img {
-    width: 300px;
+    width: 100%;
+    height: 100%;
   }
+  
   .home__shape-wawes {
     width: 100px;
     left: -4rem;
@@ -1208,8 +1213,8 @@ body.dark-theme {
   }
   .home__info {
     grid-template-rows: repeat(3, 130px);
-    row-gap: 4rem;
-    margin-top: 16rem;
+    row-gap: 2rem;
+    margin-top: 14rem;
   }
 
   .skills__container {
